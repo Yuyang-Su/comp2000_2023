@@ -6,10 +6,6 @@ public class Main extends JFrame {
         Main window = new Main();
     }
 
-    public void mouseListener(){
-        
-    }
-
     private Main() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Canvas canvas = new Canvas();
