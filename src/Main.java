@@ -6,20 +6,8 @@ public class Main extends JFrame {
         Main window = new Main();
     }
 
-    class Canvas extends JPanel {
-        public Canvas() {
-            setPreferredSize(new Dimension(720, 720));
-        }
-
+    public void mouseListener(){
         
-        @Override
-        public void paint(Graphics g) {
-            for(int i = 10; i < 710; i += 35) {
-                for(int j = 10; j < 710; j += 35) {
-                    g.drawRect(i, j, 35 ,35);
-                }
-            }
-        }
     }
 
     private Main() {
