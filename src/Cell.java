@@ -10,8 +10,7 @@ public class Cell extends JPanel{
         this.y = y;
     }
 
-    //draws a single cell at the given x and y coordinates
-    
+    //draws a single cell at the given x and y coordinates with dimesions 35x35.
     public void paint(Graphics g) {
         g.setColor(Color.WHITE);
         g.fillRect(x, y, 35, 35);

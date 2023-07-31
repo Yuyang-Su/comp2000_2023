@@ -6,6 +6,7 @@ class Canvas extends JPanel {
         setPreferredSize(new Dimension(720, 720));
     }
 
+    //nested loop that calls the cell class.
     public void paint(Graphics g) {
         for (int i = 10; i < 710; i += 35) {
             for (int j = 10; j < 710; j += 35) {
